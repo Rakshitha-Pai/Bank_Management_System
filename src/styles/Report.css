@@ -1,0 +1,50 @@
+.report-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+  }
+  
+  .credit {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .debit {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .balance-positive {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .balance-negative {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .report-table th, .report-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .report-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  

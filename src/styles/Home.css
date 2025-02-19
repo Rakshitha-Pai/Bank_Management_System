@@ -1,0 +1,102 @@
+/* 🌐 Home Page - Professional Styling */
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7e7998af, #1a1f36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 50px 10px;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* 🏡 Title Styling */
+.home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+/* 🏆 Subtext */
+.home-subtext {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    max-width: 60%;
+    line-height: 1.8;
+    color: #dcdcdc;
+}
+
+/* 📌 Section Headings */
+.home-heading {
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+/* 🔹 Services List */
+.home-services {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 2;
+    max-width: 60%;
+}
+
+.home-services li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-services li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+/* 🎭 Smooth Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+    .home-subtext, .home-services {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2.5rem;
+    }
+
+    .home-subtext {
+        font-size: 1.1rem;
+    }
+
+    .home-heading {
+        font-size: 1.6rem;
+    }
+
+    .home-services {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+}

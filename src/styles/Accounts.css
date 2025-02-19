@@ -1,0 +1,39 @@
+
+/* --- 1️⃣1️⃣ styles/Accounts.css --- */
+ul { padding: 0; }
+ul li { background: #f4f4f4; margin: 5px; padding: 10px; }
+button { cursor: pointer; background: red; color: white; border: none; padding: 5px; }
+.account-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .input-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-fields .MuiTextField-root {
+    margin-right: 10px;
+    width: 20%;
+  }
+  
+  .account-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .account-table th, .account-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .account-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
